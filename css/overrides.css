@@ -3,9 +3,25 @@ body {
 }
 
 #navbar {
-    background-color: cyan;
+    background-color: #00fdc8;
 }
 
 #video {
-    background-color: black;
+    background-color: #000000;
+}
+
+#electrical-design {
+    background-color: #7c7ce0;
+}
+
+#mechanical-design {
+    background-color: #f6cd4c;
+}
+
+#software-design {
+    background-color: #db4437;
+}
+
+#gui {
+    background-color: #78909c;
 }

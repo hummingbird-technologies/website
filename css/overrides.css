@@ -31,7 +31,7 @@ body {
 
 #electrical-design {
     background-color: #7c7ce0;
-    min-height: 350px;
+    min-height: 325px;
 }
 #electrical-design-img {
     background-image: url('../images/platform-circuit-board.jpg');
@@ -41,6 +41,7 @@ body {
 
 #software-design {
     background-color: #db4437;
+    min-height: 300px;
 }
 #software-design-img {
     background-image: url('../images/labview-screenshot.png');
@@ -50,4 +51,10 @@ body {
 
 #gui {
     background-color: #78909c;
+    min-height: 250px;
+}
+#gui-img {
+    background-image: url('../images/gui.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

@@ -127,10 +127,22 @@
           <div class="inner">
             <h3>Software Design</h3>
             <br>
-            We have a lot of software design in LabView as well, where we place many things
-            and hold them in different places to get different outcomes.
-            <br><br><br><br><br><br><br><br><br><br>
-            <br><br>
+            <p>
+              The myRIO is programmed in LabView. The code was architected with a number of abstraction levels.
+              At the lowest level, we programmed the myRIO's FPGA to interpret readings from the absolute
+              encoders we use to measure rotation.
+            </p>
+            <p>
+              We then combine encoder input and motor controller PWM output modules into PID
+              controllers. Rotation and Velocity PID Control is put together to get Module control ie. control
+              of one of the four modules. These are then put together to get Platform Control at the highest
+              level.
+            </p>
+            <p>
+              In addition, we tuned the control parameters of each module separately since the control
+              characteristics of each motor and motor controller, and even the mechanical parameters of every
+              module component were slightly different for the four modules.
+            </p>
           </div>
         </div>
       </div>

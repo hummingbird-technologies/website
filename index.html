@@ -10,17 +10,45 @@
     <link href="css/overrides.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-light bg-faded" id="navbar">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="navbar">
       <div class="container">
       <div class="row">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <a class="navbar-brand align-self-center" href="#">
           <img src="images/hummingbirdLogo.png" height="70" class="d-inline-block align-top" alt="">
         </a>
-        <a class="navbar-brand align-self-center" href="#" style="font-size: x-large">
+        <a class="navbar-brand align-self-center" href="#" style=>
+          <span style="font-size: x-large">
           Hummingbird Technologies
+          </span>&nbsp;&nbsp;&nbsp;
+          <span style="font-size: medium">
+          Innovative Organization. Seamless integration.
+          </span>
         </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mechanical-design">Mechanical Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#electrical-design">Electrical Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#software-design">Software Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gui">GUI</a>
+            </li>
+          </ul>
+        </div>
       </div>
       </div>
+
     </nav>
 
     <div class="container-fluid" id="video">
@@ -171,6 +199,14 @@
         </div>
       </div>
     </div>
+
+    <footer class="container-fluid" id="footer">
+      <div class="container" id="team">
+        <div class="row">
+          <br><br><br><br><br><br>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

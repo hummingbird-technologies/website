@@ -2,7 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#navbar {
+#navbar, #footer {
     background-color: #00fdc8;
 }
 

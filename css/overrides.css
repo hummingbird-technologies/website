@@ -18,11 +18,12 @@ body {
 
 #mechanical-design {
     background-color: #f6cd4c;
-    height: 400px;
+    min-height: 400px;
 }
 #mechanical-design-img {
     background-image: url('../images/one-module.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 #mechanical-design-img:hover {
     background-image: url('../images/one-module-cross-section.jpg');
@@ -30,7 +31,7 @@ body {
 
 #electrical-design {
     background-color: #7c7ce0;
-    height: 350px;
+    min-height: 350px;
 }
 #electrical-design-img {
     background-image: url('../images/platform-circuit-board.jpg');
@@ -40,6 +41,11 @@ body {
 
 #software-design {
     background-color: #db4437;
+}
+#software-design-img {
+    background-image: url('../images/labview-screenshot.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #gui {

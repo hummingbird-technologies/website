@@ -43,7 +43,8 @@
           Hummingbird Technologies uses an innovative design to create their own automated multifunctional
           logistics robot with the potential for further optimizing operations at inventory distribution
           (four corner-mounted, independently steered and powered wheel modules) allow for fully decoupled
-          translation and continuous rotation of the drive base.
+          translation and continuous rotation of the drive base at over 1 meters pers second, all while
+           carrying a weight of 500 pounds!
           </p>
           <p>As such, it is more maneuverable and
           cost-effective than its predecessor, ready to revolutionize the warehouse logistics robot.
@@ -92,9 +93,24 @@
           <div class="inner">
             <h3>Electrical Design</h3>
             <br>
-            We had big circuits with lots of connections that we had to connect to other parts
-            of circuit in place holding manner.
-            <br><br><br><br><br><br><br><br><br><br>
+            <p>
+              With 4 modules each with two motors, one for rotation and one for translation, the
+              robot packs a lot of electrical complexity. Each motor is driven by a motor controller
+              that receives PWN input and has an encoder for measuring its position. Inputs and outputs
+              from each of the eight motors make their way to the myRIO micro-controller via a set of
+              bread boards.
+            </p>
+            <p>
+              For meeting our target load of 500 pounds, we use CIM motors for translation which can draw
+              upto 60 A at 12 V! We outfitted the robot with a 150 A breaker and individual fuses on each
+              motor power line. We have a big red "E-stop" button on the breaker. And we use two wheelchair
+              batteries to power the whole setup!
+            </p>
+            <p>
+              Since the electric circuit shared by the motor and motor controllers can often have very
+              strange transients during operation, we use a separate 11.1 V LiPo battery to power the
+              myRIO and router bundle.
+            </p>
           </div>
         </div>
         <div class="col-5" id="electrical-design-img">
@@ -127,8 +143,8 @@
             <h3>Graphical User Interface</h3>
             <br>
             <p>
-              The robot is controlled with a gamepad or a joystick. It therefore needs no digital
-              GUI for obtaining inputs.
+              The robot is controlled with a gamepad or a joystick wirelessly. It therefore needs
+              no digital GUI for feeding in inputs.
             </p>
             <p>
               However, we created an interface for outputing the speed and pointing direction of

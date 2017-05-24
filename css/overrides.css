@@ -1,13 +1,18 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #EEEEEE;
 }
 
-#navbar, #footer {
-    background-color: #00fdc8;
+#navbar {
+    background-color: #FFFFFF;
+}
+
+#footer {
+    background-color: #FFFFFF;
 }
 
 #video {
-    background-color: #000000;
+    background-color: #003262;
 }
 
 .padding-10 {
@@ -21,7 +26,7 @@ body {
 }
 
 #mechanical-design {
-    background-color: #f6cd4c;
+    background-color: #3B7EA1;
     min-height: 400px;
 }
 #mechanical-design-img {
@@ -34,7 +39,7 @@ body {
 }
 
 #electrical-design {
-    background-color: #7c7ce0;
+    background-color: #DDD5C7;
     min-height: 325px;
 }
 #electrical-design-img {
@@ -42,9 +47,14 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#electrical-design-img:hover {
+    background-image: url('../images/HighPowerSystem.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 #software-design {
-    background-color: #db4437;
+    background-color: #3B7EA1;
     min-height: 300px;
 }
 #software-design-img {
@@ -52,9 +62,14 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#software-design-img:hover {
+    background-image: url('../images/BasicCodeArchitecture.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
 
 #gui {
-    background-color: #78909c;
+    background-color: #DDD5C7;
     min-height: 250px;
 }
 #gui-img {
